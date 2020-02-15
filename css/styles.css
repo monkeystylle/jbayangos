@@ -1,62 +1,3 @@
-/* -------- CUSTOM CSS ------------------------ */
-
-#front,
-#bottom {
-  background-color: #e0ebe8;
-}
-
-.bgFooter {
-  background-color: #79bac1;
-}
-
-.centerPar {
-  width: 55%;
-  margin: 0 auto 0 auto;
-}
-
-hr {
-  border: dotted 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 5px auto;
-}
-
-.cards {
-  width: 65%;
-  margin: 0 auto 0 auto;
-}
-
-.currentlyLearning {
-  width: 45%;
-  margin: 0 auto 0 auto;
-}
-
-.bottom {
-  width: 60%;
-  margin: 0 auto 0 auto;
-}
-
-@media (max-width: 576px) {
-  html {
-    font-size: 0.7rem;
-  }
-
-  .cards {
-    width: 80%;
-    margin: 0 auto 0 auto;
-  }
-
-  .currentlyLearning {
-    width: 60%;
-    margin: 0 auto 0 auto;
-  }
-
-  .bottom {
-    width: 80%;
-    margin: 0 auto 0 auto;
-  }
-}
-
 /*! `Custom` Bootstrap 4 theme */
 @import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css); /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -7892,4 +7833,93 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+/* -------- CUSTOM CSS ------------------------ */
+
+#front,
+#bottom {
+  background-color: #e0ebe8;
+}
+
+.bgFooter {
+  background-color: #79bac1;
+}
+
+.centerPar {
+  width: 55%;
+  margin: 0 auto 0 auto;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 5px auto;
+}
+
+.cards {
+  width: 65%;
+  margin: 0 auto 0 auto;
+}
+
+.currentlyLearning {
+  width: 45%;
+  margin: 0 auto 0 auto;
+}
+
+.bottom {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 0.7rem;
+  }
+
+  .cards {
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+
+  .currentlyLearning {
+    width: 60%;
+    margin: 0 auto 0 auto;
+  }
+
+  .bottom {
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+}
+
+/*--  Contact CSS --*/
+.bgColor {
+  background-color: #e0ebe8;
+}
+
+#bodyContact {
+  background-color: #e0ebe8;
+}
+
+.bodySize {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  background-color: #ffffff;
+}
+
+.innerBodySize {
+  width: 90%;
+  margin: 60px auto 60px auto;
+  background-color: #e0ebe8;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.contactWhiteBox {
+  background-color: ;
+}
+
+.midMargin {
+  margin: auto 0 auto 0;
 }
