@@ -7838,7 +7838,9 @@ a.text-dark:focus {
 /* -------- CUSTOM CSS ------------------------ */
 
 #front,
-#bottom {
+#bottom,
+#sampleHeader,
+.bgColor {
   background-color: #e0ebe8;
 }
 
@@ -7895,9 +7897,6 @@ hr {
 }
 
 /*--  Contact CSS --*/
-.bgColor {
-  background-color: #e0ebe8;
-}
 
 #bodyContact {
   background-color: #e0ebe8;
@@ -7916,10 +7915,25 @@ hr {
   box-shadow: 10px 10px 5px grey;
 }
 
-.contactWhiteBox {
-  background-color: ;
-}
-
 .midMargin {
   margin: auto 0 auto 0;
+}
+
+/* Samples CSS */
+
+.box {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#sample1 {
+  background-color: #7dcc93;
+}
+
+#sample2 {
+  background-color: #11999e;
+}
+
+.txtWhite {
+  color: white;
 }
